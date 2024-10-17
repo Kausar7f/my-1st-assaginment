@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+.btn-style{
+    font-weight: bold;
+    font-size: 20px;
+   background-color: #fff;
+    width: 244px;
+    height: 57px;
+    padding: 17px 24px;
+}
+.btn-style-2{
+    font-weight: 600px;
+    font-size: 20px;
+   background-color: #0f0d21;
+    width: 244px;
+    height: 57px;
+    padding: 17px 24px;
+    color:#fff;
+}
+
+/* banner-style */
+.banner-container{
+
+background-image: url('../image/Hero-bg.png');
+margin-top: 30px;
+/* width: 1440px; */
+height: 652px;
+
+}
+.banner-content{
+  text-align: center;
+ padding: 26px 221px 45px;
+    /* max-width: 585px; */
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Developer-iteam{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.bg-color{
+    background-color: #0D132105 ;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
